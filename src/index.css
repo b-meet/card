@@ -1,5 +1,5 @@
 :root {
-  --background-color: 242, 138, 178;
+  --background-color: 64, 224, 208;
   --white: #fff;
 }
 
@@ -63,7 +63,7 @@ body {
   width: 4rem;
   margin-right: 1rem;
   padding: 0.5rem 0;
-  background: rgb(102, 130, 255);
+  background: rgb(65, 105, 225);
   color: var(--white);
   border-radius: 5px;
   border: none;

@@ -23,7 +23,7 @@ function People() {
               <p className="age">{age}</p>
             </div>
             <button className="btn" onClick={() => remove(id)}>
-              OK
+              Wish
             </button>
           </section>
         );
@@ -31,7 +31,8 @@ function People() {
       <button
         className="clear-btn"
         onClick={() => {
-          return setPeople([]);
+          setPeople([]);
+          setNumberOfBirthdays(0);
         }}
       >
         Clear All
