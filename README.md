@@ -9,7 +9,7 @@ Languages And Frameworks Used
 3.JAVASCRIPT<br>
 4.REACT<br>
 
-## About Repository
+## About the Repository
 
 Its just a simple list of Birthdays with a few buttons and onClick events happening.
 
