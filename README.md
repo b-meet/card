@@ -1,15 +1,15 @@
 # Birthday-List
 
-Hello people, This is my first mini projrct using React
+Hello people, This is my first mini project using React
 
 Languages And Frameworks Used
 
-1.JSX <br>
+1.HTML (JSX) <br>
 2.CSS<br>
 3.JAVASCRIPT<br>
 4.REACT<br>
 
-## About Repository
+## About the Repository
 
 Its just a simple list of Birthdays with a few buttons and onClick events happening.
 
