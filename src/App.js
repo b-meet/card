@@ -2,10 +2,11 @@ import React, { useState, useEffect } from "react";
 
 const url = "https://randomuser.me/api/";
 const App = () => {
-	const [details, setDetails] = useState("");
-	const [loading, setLoading] = useState(true);
-	const [error, setError] = useState(false);
+	const [details, setDetails] = useState(""); // fetched data will be stored in this
+	const [loading, setLoading] = useState(true); //loading
+	const [error, setError] = useState(false); //error
 
+	//fetching the data
 	const fetchData = async () => {
 		try {
 			const resp = await fetch(url);
@@ -22,8 +23,8 @@ const App = () => {
 		fetchData();
 	}, []);
 
-	const { results, info } = details;
-	console.log(results);
+	//results is the array inside the api object
+	const { results } = details;
 	return (
 		<>
 			{loading && <h1 className='status'>Loading...</h1>}
