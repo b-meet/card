@@ -69,21 +69,21 @@ const App = () => {
 							<section className='etape1'>
 								<span className='num'>1</span>
 								<div className='etape'>
-									<span>Etape 1</span>
+									<h4>Etape 1</h4>
 									<p className='tag tag1'>En cours</p>
 								</div>
 							</section>
 							<section className='etape2'>
 								<span className='num'>2</span>
 								<div className='etape'>
-									<span>Etape 1</span>
+									<h4>Etape 1</h4>
 									<p className='tag'>En cours</p>
 								</div>
 							</section>
 							<section className='etape3'>
 								<span className='num'>3</span>
 								<div className='etape'>
-									<span>Etape 1</span>
+									<h4>Etape 1</h4>
 									<p className='tag'>En cours</p>
 								</div>
 							</section>

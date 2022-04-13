@@ -12,6 +12,11 @@ body {
 p {
 	font-size: 0.85rem;
 }
+
+h4 {
+	font-weight: 600;
+}
+
 .status {
 	width: max-content;
 	margin: 7rem auto;
@@ -77,10 +82,15 @@ p {
 	grid-column: 1/3;
 }
 
+.sideInfo {
+	padding: 1rem 2rem;
+}
+
 .etape1,
 .etape2,
 .etape3 {
 	display: flex;
+	margin: 0.75rem 0;
 }
 
 .tag {
