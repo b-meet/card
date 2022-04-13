@@ -76,15 +76,15 @@ const App = () => {
 							<section className='etape2'>
 								<span className='num'>2</span>
 								<div className='etape'>
-									<h4>Etape 1</h4>
-									<p className='tag'>En cours</p>
+									<h4>Etape 2</h4>
+									<p className='tag'>A venir</p>
 								</div>
 							</section>
 							<section className='etape3'>
 								<span className='num'>3</span>
 								<div className='etape'>
-									<h4>Etape 1</h4>
-									<p className='tag'>En cours</p>
+									<h4>Etape 3</h4>
+									<p className='tag'>A venir</p>
 								</div>
 							</section>
 						</aside>
