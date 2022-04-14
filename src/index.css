@@ -94,6 +94,8 @@ h4 {
 
 .sideInfo {
 	padding: 1rem 2rem;
+	position: relative;
+	z-index: -99;
 }
 
 .etape1,
@@ -101,6 +103,8 @@ h4 {
 .etape3 {
 	display: flex;
 	margin: 0.75rem 0;
+	position: relative;
+	z-index: -60;
 }
 
 .tag {
@@ -120,13 +124,36 @@ h4 {
 	margin-left: 1rem;
 }
 
-.num {
+.num,
+.num1 {
 	color: aliceblue;
 	width: 2rem;
 	height: 2rem;
 	border-radius: 50%;
 	display: grid;
 	place-items: center;
-	background-color: rgb(18, 114, 114);
+	background-color: rgb(18, 114, 85);
 	position: relative;
+}
+
+.num {
+	background-color: rgb(119, 226, 226);
+}
+
+.num1::before {
+	content: "";
+	position: absolute;
+	inset: -2px;
+	border-radius: 50%;
+	background-color: white;
+	z-index: -1;
+}
+
+.num1::after {
+	content: "";
+	position: absolute;
+	inset: -4px;
+	border-radius: 50%;
+	background-color: rgb(18, 114, 114);
+	z-index: -2;
 }

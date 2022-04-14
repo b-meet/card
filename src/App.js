@@ -67,7 +67,7 @@ const App = () => {
 						</section>
 						<aside className='sideInfo'>
 							<section className='etape1'>
-								<span className='num'>1</span>
+								<span className='num1'>1</span>
 								<div className='etape'>
 									<h4>Etape 1</h4>
 									<p className='tag tag1'>En cours</p>
